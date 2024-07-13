@@ -104,6 +104,7 @@ class InferenceTab:
                 type="filepath",
                 show_download_button=True,
             )
+        with gr.Row():
             with gr.Accordion("inference by Link", open=False):
                 with gr.Row():
                     youtube_link = gr.Textbox(
